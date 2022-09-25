@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    
+    overflow: hidden;
+    background-position:center;
+    height: 80vh;
+    background-image: url("img/eid.jpg");
+    background-size: auto;
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+}
+.container{
+width: 1200px;
+margin: auto;
+}
+
+.navbar .content h3
+{
+float: left;
+font-family: italiano;
+font-weight: bold;
+font-size: x-large;
+color: aliceblue;
+margin-top: 15px;
+margin-left: 10px;
+
+}
+.navbar .links{
+    float: right;
+    margin-top: 5px;
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+}
+.navbar .links li{
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: none;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.navbar .links .home:hover{
+    color: yellow;
+}
+.contents{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: cursive;
+    color: azure;
+    margin-top: 60vh;
+}
+.contents .eid{
+    
+    color: yellow;
+}
+.clear{
+    clear:both;
+}
+.paragraph{
+    text-align: center;
+    margin: 30px;
+    padding: 15px;
+}
+.paragraph .head{
+text-transform: capitalize;
+padding: 10px;
+color: rgb(231, 134, 17);
+word-spacing: 5px;
+font-size: larger;
+font-weight: bold;
+font-family: cairo;
+text-shadow: 1px 1px 2px #333;
+}
+.paragraph .word{
+    
+}
+.img{
+    padding: 20px;
+    height:150px;   
+}
+.img div{
+    width: 23%;
+    float: left;
+    text-align: center;
+    height: fit-content;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.img h3{
+    color: black;
+    font-weight: bold;
+    
+}
+.img div p{
+    padding: 10px;
+    color: rgb(169, 166, 166);
+}
+.img .d1{
+    background-color: #333;
+}
+
+.img .d3{
+    background-color: #333;
+}
+.img .d2{
+    background-color: rgb(235, 235, 69);
+} 
+.img .d4{
+    background-color:  rgb(235, 235, 69);
+}
+.eid-img{
+    padding: 10px;
+}
+.eid-img h4 {
+    text-align: center;
+    padding: 5px;
+    text-transform: capitalize;
+    color: rgb(231, 134, 17);
+    word-spacing: 5px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: cairo;
+    text-shadow: 1px 1px 2px #333;
+
+
+}
+.eid-img img{
+    width: 23%;
+    float: left;
+    margin: 5px;
+    border-radius:5px ;
+    box-shadow: 3px 2px 5px #333;
+    overflow-y: hidden;
+    border: 3px solid rgb(185, 185, 12);
+}
+
+.last
+{
+    background-image: url("img/8.jpg");
+    padding: 20px;
+    text-align: center;
+    height:fit-content;
+    margin: 30px 0 0 0;
+}
+.last .contact{
+    background-color: rgb(83 169 140 / 66%);
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 2px solid yellow;
+    overflow: hidden;
+}
+.last .contact input{
+    float: left;
+    width:140vh;
+    border-bottom:2px solid rgb(210, 210, 39);
+    color: rgb(190, 190, 20);
+    padding: 5px;
+    margin: 10px 20px 10px 20px;
+    background-color: rgb(67 140 115);
+}
+.last .contact textarea{
+    width:140vh;
+    background-color: rgb(67 140 115);
+}
+.last h2{
+    color: #eee;
+    text-transform: capitalize;
+    font-size:x-large;
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+
+}
+.last p{
+    color: #eee;
+}
+.foot{
+    background-color:rgb(235, 235, 69) ;
+    text-align: center;
+}
+.foot footer ul{
+display: inline-block;
+width: 25%;
+padding: 20px;
+cursor: pointer;
+}
+.foot .icons{
+    padding: 5px;
+    
+}
